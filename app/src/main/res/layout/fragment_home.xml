@@ -37,7 +37,7 @@
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="0dp"
                 android:inputType="textMultiLine"
-                android:text="@string/ram"
+                android:text="@string/intr"
 
                 android:textSize="16sp"
                 tools:ignore="SpeakableTextPresentCheck" />

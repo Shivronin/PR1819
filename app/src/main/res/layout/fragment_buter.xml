@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.pr1819.ui.ram.RamFragment">
+    tools:context="com.example.pr1819.ui.buter.ButerFragment">
 
     <ScrollView
         android:layout_width="409dp"
@@ -35,7 +35,7 @@
                 android:layout_marginTop="-10dp"
                 android:layout_marginBottom="0dp"
                 android:inputType="textMultiLine"
-                android:text="@string/ram"
+                android:text="@string/buter"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:textSize="16sp"

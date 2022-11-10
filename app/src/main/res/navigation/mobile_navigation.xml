@@ -12,46 +12,46 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.example.pr1819.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        android:id="@+id/nav_cruasan"
+        android:name="com.example.pr1819.ui.cruasan.CruasanFragment"
+        android:label="@string/menu_cruasan"
+        tools:layout="@layout/fragment_cruasan" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.example.pr1819.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_pirog"
+        android:name="com.example.pr1819.ui.pirog.PirogFragment"
+        android:label="@string/menu_pirog"
+        tools:layout="@layout/fragment_pirog" />
 
     <fragment
-        android:id="@+id/nav_ram"
-        android:name="com.example.pr1819.ui.ram.RamFragment"
-        android:label="@string/menu_ram"
-        tools:layout="@layout/fragment_slideshow" />
-    <fragment
-        android:id="@+id/nav_hdd"
-        android:name="com.example.pr1819.ui.hdd.HddFragment"
-        android:label="@string/menu_hdd"
+        android:id="@+id/nav_sloika"
+        android:name="com.example.pr1819.ui.sloika.SloikaFragment"
+        android:label="@string/menu_sloika"
         tools:layout="@layout/fragment_sloika" />
     <fragment
-        android:id="@+id/nav_gpu"
-        android:name="com.example.pr1819.ui.gpu.GpuFragment"
-        android:label="@string/menu_gpu"
+        android:id="@+id/nav_buter"
+        android:name="com.example.pr1819.ui.buter.ButerFragment"
+        android:label="@string/menu_buter"
+        tools:layout="@layout/fragment_buter" />
+    <fragment
+        android:id="@+id/nav_ponchic"
+        android:name="com.example.pr1819.ui.ponchic.PonchicFragment"
+        android:label="@string/menu_ponchic"
         tools:layout="@layout/fragment_ponchic" />
     <fragment
-        android:id="@+id/nav_bp"
-        android:name="com.example.pr1819.ui.bp.BpFragment"
-        android:label="@string/menu_bp"
+        android:id="@+id/nav_pechenie"
+        android:name="com.example.pr1819.ui.pechenie.PechenieFragment"
+        android:label="@string/menu_pechenie"
         tools:layout="@layout/fragment_pechenie" />
     <fragment
-        android:id="@+id/nav_case"
-        android:name="com.example.pr1819.ui.case.CaseFragment"
-        android:label="@string/menu_case"
+        android:id="@+id/nav_blin"
+        android:name="com.example.pr1819.ui.blin.BlinFragment"
+        android:label="@string/menu_blin"
         tools:layout="@layout/fragment_blin" />
     <fragment
-        android:id="@+id/nav_monitor"
-        android:name="com.example.pr1819.ui.monitor.MonitorFragment"
-        android:label="@string/menu_monitor"
+        android:id="@+id/nav_xleb"
+        android:name="com.example.pr1819.ui.xleb.XlebFragment"
+        android:label="@string/menu_xleb"
         tools:layout="@layout/fragment_xleb" />
 
 

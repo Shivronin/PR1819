@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.pr1819.ui.hdd.HddFragment">
+    tools:context="com.example.pr1819.ui.sloika.SloikaFragment">
 
     <ScrollView
         android:layout_width="409dp"
@@ -38,7 +38,7 @@
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="0dp"
                 android:inputType="textMultiLine"
-                android:text="@string/ram"
+                android:text="@string/sloika"
                 android:textSize="16sp"
                 tools:ignore="SpeakableTextPresentCheck" />
         </LinearLayout>

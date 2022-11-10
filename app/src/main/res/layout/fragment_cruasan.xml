@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.blin.BlinFragment">
+    tools:context=".ui.cruasan.CruasanFragment">
 
     <ScrollView
         android:layout_width="409dp"
@@ -23,24 +23,23 @@
             <ImageView
                 android:id="@+id/icon"
                 android:layout_width="match_parent"
-                android:layout_height="246dp"
+                android:layout_height="271dp"
                 android:layout_marginTop="50dp"
                 android:background="#FFFFFF"
-                android:src="@drawable/blin" />
+                android:src="@drawable/cruasan" />
 
             <TextView
                 android:id="@+id/textview"
                 android:layout_width="match_parent"
-                android:layout_height="500dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="-10dp"
-                android:layout_marginRight="10dp"
+                android:layout_height="450dp"
+                android:layout_marginTop="10dp"
                 android:layout_marginBottom="0dp"
                 android:inputType="textMultiLine"
-                android:text="@string/menu_blin"
+                android:text="@string/cruasan"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
                 android:textSize="16sp"
                 tools:ignore="SpeakableTextPresentCheck" />
         </LinearLayout>
     </ScrollView>
-
 </androidx.constraintlayout.widget.ConstraintLayout>
