@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.ivanov_pr1819_mobil'
+    namespace 'com.example.pr1819'
     compileSdk 32
 
     defaultConfig {
-        applicationId "com.example.ivanov_pr1819_mobil"
+        applicationId "com.example.pr1819"
         minSdk 23
         targetSdk 32
         versionCode 1

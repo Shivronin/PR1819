@@ -1,4 +1,4 @@
-package com.example.ivanov_pr1819_mobil.ui.gallery
+package com.example.pr1819.ui.gallery
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import com.example.ivanov_pr1819_mobil.databinding.FragmentGalleryBinding
+import com.example.pr1819.databinding.FragmentGalleryBinding
 
 class GalleryFragment : Fragment() {
 

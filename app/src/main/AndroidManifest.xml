@@ -7,18 +7,18 @@
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@drawable/ic_compall"
-        android:label="@string/app_name"
+        android:label="Пекарня"
         android:roundIcon="@drawable/ic_compall"
         android:supportsRtl="true"
-        android:theme="@style/Theme.IvanovPR1819mobil"
+        android:theme="@style/Theme.Design"
         tools:targetApi="31">
 
 
         <activity
             android:name="com.example.pr1819.MainActivity"
             android:exported="true"
-            android:label="@string/app_name"
-            android:theme="@style/Theme.IvanovPR1819mobil.NoActionBar">
+            android:label="Пекарня"
+            android:theme="@style/Theme.Design.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

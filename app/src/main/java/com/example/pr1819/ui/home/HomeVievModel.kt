@@ -1,13 +1,8 @@
-package com.example.ivanov_pr1819_mobil.ui.home
+package com.example.pr1819.ui.home
 
-import android.graphics.BitmapFactory
-import android.graphics.drawable.BitmapDrawable
-import android.graphics.drawable.Drawable
-import android.media.Image
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.example.ivanov_pr1819_mobil.R
 
 class HomeVievModel: ViewModel() {
     private val _text = MutableLiveData<String>().apply {

@@ -1,4 +1,4 @@
-package com.example.ivanov_pr1819_mobil.ui.case
+package com.example.pr1819.ui.case
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

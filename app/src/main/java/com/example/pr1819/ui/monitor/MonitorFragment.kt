@@ -1,4 +1,4 @@
-package com.example.ivanov_pr1819_mobil.ui.monitor
+package com.example.pr1819.ui.monitor
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,9 +7,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import com.example.ivanov_pr1819_mobil.databinding.FragmentMonitorBinding
-import com.example.ivanov_pr1819_mobil.databinding.FragmentSlideshowBinding
-import com.example.ivanov_pr1819_mobil.ui.slideshow.SlideshowViewModel
+import com.example.pr1819.databinding.FragmentMonitorBinding
 
 class MonitorFragment : Fragment() {
     private var _binding: FragmentMonitorBinding? = null

@@ -1,4 +1,4 @@
-package com.example.ivanov_pr1819_mobil.ui.gallery
+package com.example.pr1819.ui.gallery
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

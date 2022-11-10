@@ -1,4 +1,4 @@
-package com.example.ivanov_pr1819_mobil.ui.gpu
+package com.example.pr1819.ui.gpu
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

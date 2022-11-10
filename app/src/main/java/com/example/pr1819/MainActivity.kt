@@ -11,9 +11,9 @@ import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.appcompat.app.AppCompatActivity
-import com.example.ivanov_pr1819_mobil.databinding.ActivityMainBinding
 import android.widget.Toast
-import com.example.ivanov_pr1819_mobil.R
+import com.example.pr1819.R
+import com.example.pr1819.databinding.ActivityMainBinding
 
 
 class MainActivity : AppCompatActivity() {
@@ -68,7 +68,7 @@ class MainActivity : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem): Boolean{
         return when (item.itemId) {
             R.id.info -> {
-                Toast.makeText(applicationContext, "Я очень долго пытался с этим разобраться, но я устал. Поставьте 5 пожалуйста!!!", Toast.LENGTH_LONG).show()
+                Toast.makeText(applicationContext, "Бу!", Toast.LENGTH_LONG).show()
                 true
             }
 
