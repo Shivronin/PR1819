@@ -7,12 +7,12 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import com.example.pr1819.databinding.FragmentCaseBinding
+import com.example.pr1819.databinding.FragmentBlinBinding
 import com.example.pr1819.ui.case.CaseViewModel
 
 
 class CaseFragment: Fragment() {
-    private var _binding: FragmentCaseBinding? = null
+    private var _binding: FragmentBlinBinding? = null
 
     // This property is only valid between onCreateView and
     // onDestroyView.
@@ -26,7 +26,7 @@ class CaseFragment: Fragment() {
         val caseViewModel =
             ViewModelProvider(this).get(CaseViewModel::class.java)
 
-        _binding = FragmentCaseBinding.inflate(inflater, container, false)
+        _binding = FragmentBlinBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
         val textView: TextView = binding.textview

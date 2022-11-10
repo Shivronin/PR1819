@@ -7,12 +7,12 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import com.example.pr1819.databinding.FragmentRamBinding
+import com.example.pr1819.databinding.FragmentSloikaBinding
 
 class RamFragment: Fragment() {
 
 
-    private var _binding: FragmentRamBinding? = null
+    private var _binding: FragmentSloikaBinding? = null
 
     // This property is only valid between onCreateView and
     // onDestroyView.
@@ -26,7 +26,7 @@ class RamFragment: Fragment() {
         val ramViewModel =
             ViewModelProvider(this).get(RamViewModel::class.java)
 
-        _binding = FragmentRamBinding.inflate(inflater, container, false)
+        _binding = FragmentSloikaBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
         val textView: TextView = binding.textview

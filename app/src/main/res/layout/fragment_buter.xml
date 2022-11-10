@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.bp.BpFragment">
-
+    tools:context="com.example.pr1819.ui.ram.RamFragment">
 
     <ScrollView
         android:layout_width="409dp"
@@ -23,17 +22,17 @@
 
             <ImageView
                 android:id="@+id/icon"
-                android:layout_marginTop="50dp"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="235dp"
+                android:layout_marginTop="50dp"
                 android:background="#FFFFFF"
-                android:src="@drawable/bp" />
+                android:src="@drawable/buter" />
 
             <TextView
                 android:id="@+id/textview"
                 android:layout_width="match_parent"
                 android:layout_height="410dp"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="-10dp"
                 android:layout_marginBottom="0dp"
                 android:inputType="textMultiLine"
                 android:text="@string/ram"
@@ -43,5 +42,4 @@
                 tools:ignore="SpeakableTextPresentCheck" />
         </LinearLayout>
     </ScrollView>
-
 </androidx.constraintlayout.widget.ConstraintLayout>

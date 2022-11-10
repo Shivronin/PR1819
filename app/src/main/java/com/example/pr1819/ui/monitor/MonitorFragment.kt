@@ -7,10 +7,10 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import com.example.pr1819.databinding.FragmentMonitorBinding
+import com.example.pr1819.databinding.FragmentXlebBinding
 
 class MonitorFragment : Fragment() {
-    private var _binding: FragmentMonitorBinding? = null
+    private var _binding: FragmentXlebBinding? = null
 
     // This property is only valid between onCreateView and
     // onDestroyView.
@@ -24,7 +24,7 @@ class MonitorFragment : Fragment() {
         val monitorViewModel =
             ViewModelProvider(this).get(MonitorViewModel::class.java)
 
-        _binding = FragmentMonitorBinding.inflate(inflater, container, false)
+        _binding = FragmentXlebBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
         val textView: TextView = binding.textview

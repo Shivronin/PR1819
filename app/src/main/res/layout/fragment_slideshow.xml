@@ -22,11 +22,11 @@
 
             <ImageView
                 android:id="@+id/icon"
-                android:layout_marginTop="50dp"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="244dp"
+                android:layout_marginTop="50dp"
                 android:background="#FFFFFF"
-                android:src="@drawable/mother" />
+                android:src="@drawable/pirog" />
 
             <TextView
                 android:id="@+id/textview"

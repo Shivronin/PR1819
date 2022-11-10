@@ -32,27 +32,27 @@
         android:id="@+id/nav_hdd"
         android:name="com.example.pr1819.ui.hdd.HddFragment"
         android:label="@string/menu_hdd"
-        tools:layout="@layout/fragment_hdd" />
+        tools:layout="@layout/fragment_sloika" />
     <fragment
         android:id="@+id/nav_gpu"
         android:name="com.example.pr1819.ui.gpu.GpuFragment"
         android:label="@string/menu_gpu"
-        tools:layout="@layout/fragment_gpu" />
+        tools:layout="@layout/fragment_ponchic" />
     <fragment
         android:id="@+id/nav_bp"
         android:name="com.example.pr1819.ui.bp.BpFragment"
         android:label="@string/menu_bp"
-        tools:layout="@layout/fragment_bp" />
+        tools:layout="@layout/fragment_pechenie" />
     <fragment
         android:id="@+id/nav_case"
         android:name="com.example.pr1819.ui.case.CaseFragment"
         android:label="@string/menu_case"
-        tools:layout="@layout/fragment_case" />
+        tools:layout="@layout/fragment_blin" />
     <fragment
         android:id="@+id/nav_monitor"
         android:name="com.example.pr1819.ui.monitor.MonitorFragment"
         android:label="@string/menu_monitor"
-        tools:layout="@layout/fragment_monitor" />
+        tools:layout="@layout/fragment_xleb" />
 
 
 </navigation>

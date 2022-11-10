@@ -7,10 +7,10 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import com.example.pr1819.databinding.FragmentGpuBinding
+import com.example.pr1819.databinding.FragmentPonchicBinding
 
 class GpuFragment: Fragment() {
-    private var _binding: FragmentGpuBinding? = null
+    private var _binding: FragmentPonchicBinding? = null
 
     // This property is only valid between onCreateView and
     // onDestroyView.
@@ -24,7 +24,7 @@ class GpuFragment: Fragment() {
         val gpuViewModel =
             ViewModelProvider(this).get(GpuViewModel::class.java)
 
-        _binding = FragmentGpuBinding.inflate(inflater, container, false)
+        _binding = FragmentPonchicBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
         val textView: TextView = binding.textview

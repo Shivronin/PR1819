@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.case.CaseFragment">
+    tools:context="com.example.pr1819.ui.gpu.GpuFragment">
 
     <ScrollView
         android:layout_width="409dp"
@@ -22,25 +22,24 @@
 
             <ImageView
                 android:id="@+id/icon"
-                android:layout_marginTop="50dp"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="240dp"
+                android:layout_marginTop="50dp"
                 android:background="#FFFFFF"
-                android:src="@drawable/cases" />
+                android:src="@drawable/ponchic" />
 
             <TextView
                 android:id="@+id/textview"
                 android:layout_width="match_parent"
-                android:layout_height="500dp"
+                android:layout_height="665dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="-10dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="0dp"
                 android:inputType="textMultiLine"
-                android:text=""
+                android:text="@string/gpu"
                 android:textSize="16sp"
                 tools:ignore="SpeakableTextPresentCheck" />
         </LinearLayout>
     </ScrollView>
-
 </androidx.constraintlayout.widget.ConstraintLayout>
